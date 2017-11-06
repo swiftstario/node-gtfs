@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Trip = mongoose.model('Trip', new mongoose.Schema({
+const Trip = mongoose.model('GTFS-Trip', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Route = mongoose.model('Route', new mongoose.Schema({
+const Route = mongoose.model('GTFS-Route', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

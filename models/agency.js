@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Agency = mongoose.model('Agency', new mongoose.Schema({
+const Agency = mongoose.model('GTFS-Agency', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

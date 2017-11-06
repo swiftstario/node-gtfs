@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Shape = mongoose.model('Shape', new mongoose.Schema({
+const Shape = mongoose.model('GTFS-Shape', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

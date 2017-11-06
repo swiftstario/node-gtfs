@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const FeedInfo = mongoose.model('FeedInfo', new mongoose.Schema({
+const FeedInfo = mongoose.model('GTFS-FeedInfo', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

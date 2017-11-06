@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Transfer = mongoose.model('Transfer', new mongoose.Schema({
+const Transfer = mongoose.model('GTFS-Transfer', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

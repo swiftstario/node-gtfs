@@ -54,4 +54,4 @@ stopTimeSchema.index({
   stop_sequence: 1
 });
 
-module.exports = mongoose.model('StopTime', stopTimeSchema);
+module.exports = mongoose.model('GTFS-StopTime', stopTimeSchema);

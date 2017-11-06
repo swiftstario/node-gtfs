@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const TimetablePage = mongoose.model('TimetablePage', new mongoose.Schema({
+const TimetablePage = mongoose.model('GTFS-TimetablePage', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const StopAttributes = mongoose.model('StopAttributes', new mongoose.Schema({
+const StopAttributes = mongoose.model('GTFS-StopAttributes', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

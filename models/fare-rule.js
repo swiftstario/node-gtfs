@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const FareRule = mongoose.model('FareRule', new mongoose.Schema({
+const FareRule = mongoose.model('GTFS-FareRule', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

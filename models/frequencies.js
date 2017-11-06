@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Frequencies = mongoose.model('Frequencies', new mongoose.Schema({
+const Frequencies = mongoose.model('GTFS-Frequencies', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

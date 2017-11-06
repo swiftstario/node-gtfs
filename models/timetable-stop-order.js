@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const TimetableStopOrder = mongoose.model('TimetableStopOrder', new mongoose.Schema({
+const TimetableStopOrder = mongoose.model('GTFS-TimetableStopOrder', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,

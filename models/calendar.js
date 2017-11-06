@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Calendar = mongoose.model('Calendar', new mongoose.Schema({
+const Calendar = mongoose.model('GTFS-Calendar', new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,
