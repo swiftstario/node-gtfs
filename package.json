@@ -1,7 +1,7 @@
 {
   "name": "@swiftstar/gtfs",
   "description": "Import GTFS transit data into mongodb and query routes, stops, times, fares and more",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "keywords": [
     "transit",
     "gtfs",

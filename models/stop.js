@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Stop = mongoose.model('GTFS-Stop', new mongoose.Schema({
+const StopSchema = new mongoose.Schema({
   agency_key: {
     type: String,
     required: true,
@@ -50,6 +50,10 @@ const Stop = mongoose.model('GTFS-Stop', new mongoose.Schema({
     min: 0,
     max: 2
   }
-}));
+});
+
+StopSchema.index({ "loc": "2d"});
+
+const Stop = mongoose.model('GTFS-Stop', StopSchema);
 
 module.exports = Stop;
